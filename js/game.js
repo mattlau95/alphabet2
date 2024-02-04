@@ -45,7 +45,6 @@ for (let i = 0; i < code.length; i++) {
 }
 
 // Display the images
-passwrd.innerText = code;
 const imageContainer = document.getElementById("image-display");
 images.forEach((image) => imageContainer.appendChild(image));
 
